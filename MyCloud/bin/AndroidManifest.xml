@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mycloud"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".LoginActivity"
+                  android:label="My Cloud Drive">
+                  
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				
+            
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         
+        
+        
+        <!--  Entry for RegisterActivity.class -->
+        <activity android:name=".RegisterActivity"
+                  android:label="Register New Account"></activity>
+        
+        <!--  Entry for Userpage.class -->
+        <activity android:name=".userpage"
+                  android:label="Mydrive"></activity>
+        
+       
+        
+        
+    </application>
+    
+    
+     <activity-alias android:name="com.android.example.app.MyPicker"
+        android:targetActivity="com.android.example.app.MyActivity"
+       
+        >
+    <intent-filter>
+        <action android:name="android.intent.action.GET_CONTENT" />
+        <category android:name="android.intent.category.OPENABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="image/*" />
+        <data android:mimeType="video/*" />
+    </intent-filter>
+</activity-alias>
+
+</manifest>
