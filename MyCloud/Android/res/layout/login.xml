@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+  
+        <!--  Header Starts-->
+        <!--  Header Starts-->
+		<!--  Header Ends -->
+        <!--  Header Ends -->
+ 
+        <!-- Footer Start -->
+        <!-- Footer Start -->
+<!-- Footer Ends -->
+                   <!-- Place footer next to header to set z-index property to minus value -->
+        <!-- Footer Ends -->
+ 
+        <!-- Login Form -->
+        <!-- Login Form -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+          <!--  Email Label -->
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/username"
+              android:textColor="#000000" />
+
+          <EditText android:id="@+id/editText1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="text"/>
+          <!--  Password Label -->
+
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/pass"
+              android:textColor="#000000" />
+
+          <EditText android:id="@+id/editText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+          <!-- Login button -->
+          <Button android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="@string/Login"/>
+          <!-- Link to Registration Screen -->
+
+          <TextView
+              android:id="@+id/linktoregister"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="40dip"
+              android:layout_marginTop="40dip"
+              android:gravity="center"
+              android:text="@string/new1"
+              android:textColor="#0b84aa"
+               />
+ 
+</LinearLayout>
+<!-- Login Form Ends -->
+        <!-- Login Form Ends -->
+ 
+  
+</ScrollView>
+
+
