@@ -1,0 +1,85 @@
+﻿body{
+
+font-family: Century Gothic, Comic Sans MS;
+margin: 0 auto;
+text-align: center;
+}
+
+
+#pic
+{position:relative;
+top:200px;
+}
+
+#pic img.im
+{
+	 width:130%;
+	 height:400%;
+}
+
+#pic #options
+{ top: -650px;
+ font-size:50px;
+  position:relative;
+ font-family:Comic Sans MS; 
+ color:blue;
+ left:500px;
+}
+
+#pic #s
+{ top: 810px;
+ font-size:40px;
+ position:fixed;
+ font-family:Comic Sans MS; 
+ color:blue;
+ left:540px;
+}
+
+#pic #options .upload {
+    width: 157px;
+    height: 57px;
+    overflow: hidden;
+}
+
+#pic #options .upload input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+#pic #s input.submit{
+    width: 5em;  
+    height: 2em;
+    font-size:40px;
+}
+
+#pic #back
+{ 
+ top: -800px;
+ position:relative;
+ font-family:Comic Sans MS; 
+ left: 650px;
+}
+
+#pic #back a {
+ font-size:40px;
+ font-weight:bold;
+ text-decoration: underline;
+}
+
+#heading{
+	
+	font-size:60px;
+	font-family:"Century Gothic";
+	padding-bottom:70px;
+	text-align:center;
+	padding-top:70px;
+	color: #610B21;
+	left:130px;
+	position:relative;
+}
+
+
+

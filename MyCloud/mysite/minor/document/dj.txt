@@ -1,0 +1,4 @@
+read 2.3 2.4 2.5 2.6 4.5(custom storage may be useful for our project)
+
+and jython for running python on java platform for mobiles 
+and for that 4.10 (running django on jython)

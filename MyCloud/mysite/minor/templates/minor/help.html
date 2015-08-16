@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style6.css' %}" media="Screen" />
+<body>
+<div id="send">
+<img class="im" src="{% static "minor/help1.jpg" %}" alt="My image" height="432" width="523"/>
+</div>
+<div id="back">
+<a href="{% url 'minor:try1' %}">My DRIVE</a>
+</div>
+</body>
+</html>

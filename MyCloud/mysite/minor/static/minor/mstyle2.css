@@ -1,0 +1,140 @@
+﻿#back
+{
+background:#E5E4E2;
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+width: 1300px;
+height:250px;
+z-index:-1;
+}
+#back #heading
+{  width: 10%;
+    z-index:1;
+   font-size:30px;
+   font-family: Comic Sans MS;
+  color: #610B21;
+  margin-right: 140px;
+  position:relative;
+  top:-50px;
+  height:4px;
+
+}
+#back #logout
+{
+	 display:none;
+}
+
+#logo
+{   display:none;
+	 
+}
+#set1 #upload
+{
+	 left: 500px;
+	 position:relative;
+	 top: 1100px;
+	   width:600px;
+}
+
+#set1 #list
+{    
+	left: 10px;
+	width:70%;
+    position:relative;
+    top:-25px;
+    text-align:left;
+    font-size:50px;
+    font-weight:bold;
+    
+    
+}
+#set1 #list #file
+{ 
+	width: 1em;
+	height: 1em;
+}  
+#set1 #list a
+{
+margin-left:8px;
+}
+
+#set1 #del
+{
+	left:700px;
+	top:1300px;
+	position:fixed;
+	  width:300px;
+}
+
+#set1 #share
+{
+	 left: 320px;
+	 position:relative;
+	 top:1150px;
+	   width:1000px;
+}
+
+
+#set1 #lastm
+{
+	left: 700px;
+    top: 425px;
+    position: fixed;
+    font-size:50px;
+    width:70%;
+  
+
+}
+
+#set1 #list #text1
+{
+	font-family: Century Gothic, Comic Sans MS;
+font-size:20px;
+font-weight:bold;
+padding-bottom:20px;
+}
+
+#mem
+{    font-family: Century Gothic, Comic Sans MS;
+font-size:45px;
+font-weight:bold;
+position:fixed;
+	left:20px;
+	top:20px;
+	border:thin;
+ border-color:silver;
+ border-width:thin;
+ border-bottom-style:dashed;
+ border-top-style:dashed;
+border-right-style:dashed;
+border-left-style:dashed;
+background-color:#FAFAFA;
+width:350px;
+border-spacing:2px;
+}
+
+#help
+{
+	left:20px;
+	top:1280px;
+	position:fixed;
+	  width:300px;
+
+}
+
+#mydrive
+{ display:none;
+}
+#last1
+{
+background:#E5E4E2;
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+max-width: 1000px;
+height:180px;
+position:absolute;
+top:40px;
+z-index:-1;
+}

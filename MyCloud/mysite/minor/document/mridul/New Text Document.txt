@@ -1,0 +1,242 @@
+
+
+ 
+
+
+
+<HTML>
+<head>
+<TITLE>#### JIIT [ Student Class Attendance ] </TITLE>
+<script type="text/javascript" src="../js/sortabletable.js"></script>
+<link type="text/css" rel="StyleSheet" href="../css/sortabletable.css" />
+
+<script language="JavaScript" type ="text/javascript">
+<!-- 
+  if (top != self) top.document.title = document.title;
+-->
+</script>
+<script>
+if(window.history.forward(1) != null)
+window.history.forward(1);
+</script>
+</head>
+
+
+<body aLink=#ff00ff bgcolor=#fce9c5 rightmargin=0 leftmargin=0 topmargin=0 bottommargin=0 >
+
+<table width="100%" ALIGN=CENTER bottommargin=0  topmargin=0>
+<tr>
+<TD align=middle><font color="#a52a2a" style="FONT-SIZE: medium; FONT-FAMILY: verdana"><b>Student Attendance</b></font>
+</td>
+</tr>
+</table>
+<form name="frm" method=get>
+<input id="x" name="x" type=hidden>
+<table width=100%  rules=groups cellspacing=1 cellpadding=1 align=center border=1>
+<tr><td><font color=black face=arial size=2><STRONG> Name:&nbsp;</STRONG></font>Utkarsh  Garg[11503878]</td>
+<td><font color=black face=arial size=2><STRONG>Course/Branch:&nbsp;</STRONG></font>DUAL(CSE)</td>
+<td><font color=black face=arial size=2><STRONG>Current Semester:&nbsp;</STRONG></font>6</td></tr>
+<tr>
+	<td><font color=black face=arial size=2><STRONG>Exam Code</STRONG></font>
+
+	<select name=exam tabindex="0" id="exam" style="WIDTH: 140px">	
+
+			<OPTION Selected Value =2014EVESEM>2014EVESEM</option>
+			
+			<option value=2013ODDSEM>2013ODDSEM</option>
+		
+			<option value=2013EVESEM>2013EVESEM</option>
+		
+			<option value=2011ODDSEM>2011ODDSEM</option>
+		
+ </select>
+</td>
+<td colspan=2>
+<input type="submit" value="View Attendance"></td></tr>
+</table></form>
+
+<TABLE align=center rules=Rows class="sort-table" id="table-1" cellSpacing=1 cellPadding=1 width="98%" border=1 >
+<thead>
+<tr bgcolor="#c00000">
+ <td Title="Click on SNo to sort"><b><font color="White">SNo</font></b></td>
+ <td Title="Click on Subject to Sort"><b><font color="White">Subject</font></b></td>
+<!--  <td Title="Click on Subject to Sort"><b><font color="White">Employee </font></b></td>-->
+ <td  Title="Click on Lecture+Tutorial(%) to Sort"><b><font color="White">Lecture+Tutorial(%)</font></b></td> 
+ <td align=center Title="Click on Lecture(%) to Sort"><b><font color="White">Lecture(%)</font></b></td> 
+ <td align=center Title="Click on Tutorial(%) to Sort"><b><font color="White">Tutorial(%)</font></b></td> 
+ <td align=center Title="Click on Practical(%) to Sort"><b><font color="White">Practical(%)</font></b></td> 
+</tr>
+</thead>
+<tbody>
+
+	<tr>
+		<td>1</td>	
+		<td>COMPILER DESIGN - 10B11CI612</td>
+	
+	<td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090171&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1305691&amp;mTFSTID=JIIT1305702'>88.0</a></td>
+	
+	<td align=center><a Title="View Date wise Lecture Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090171&amp;LTP=L&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevLFSTID=&amp;mLFSTID=JIIT1305691'><font color=blue>85.0</font></a></td>
+
+		<td align=center><a Title="View Date wise Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090171&amp;LTP=T&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;mTFSTID=JIIT1305702'>100.0</a></td>
+		
+<td>&nbsp;</td>
+
+</tr>	
+
+	<tr>
+		<td>2</td>	
+		<td>COMPILER DESIGN LAB - 10B17CI672</td>
+	
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+		<td align=center><a Title="View Date wise Practical Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090175&amp;LTP=P&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevPFSTID=&amp;mPFSTID=JIIT1306457'>86.0</a></td>
+		
+</tr>	
+
+	<tr>
+		<td>3</td>	
+		<td>COMPUTER NETWORKS - 10B11CI611</td>
+	
+	<td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090170&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1306681&amp;mTFSTID=JIIT1307399'>79.0</a></td>
+	
+	<td align=center><a Title="View Date wise Lecture Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090170&amp;LTP=L&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevLFSTID=&amp;mLFSTID=JIIT1306681'><font color=blue>78.0</font></a></td>
+
+		<td align=center><a Title="View Date wise Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090170&amp;LTP=T&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;mTFSTID=JIIT1307399'>82.0</a></td>
+		
+<td>&nbsp;</td
+
+</tr>	
+
+	<tr>
+		<td>4</td>	
+		<td>COMPUTER NETWORKS LAB - 10B17CI671</td>
+	
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+		<td align=center><a Title="View Date wise Practical Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090174&amp;LTP=P&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevPFSTID=&amp;mPFSTID=JIIT1307458'>90.0</a></td>
+		
+</tr>	
+
+	<tr>
+		<td>5</td>	
+		<td>COMPUTER ORGANISATION AND ARCHITECTURE - 10B11CI613</td>
+	
+	<td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090172&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1306696&amp;mTFSTID=JIIT1307415'>86.0</a></td>
+	
+	<td align=center><a Title="View Date wise Lecture Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090172&amp;LTP=L&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevLFSTID=&amp;mLFSTID=JIIT1306696'><font color=blue>88.0</font></a></td>
+
+		<td align=center><a Title="View Date wise Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090172&amp;LTP=T&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;mTFSTID=JIIT1307415'>75.0</a></td>
+		
+<td>&nbsp;</td>
+
+</tr>	
+
+	<tr>
+		<td>6</td>	
+		<td>MATERIAL SCIENCE - 10B11PH611</td>
+	
+	<td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090173&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1306965&amp;mTFSTID=JIIT1306983'>78.0</a></td>
+	
+	<td align=center><a Title="View Date wise Lecture Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090173&amp;LTP=L&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevLFSTID=&amp;mLFSTID=JIIT1306965'><font color=blue>78.0</font></a></td>
+
+		<td align=center><a Title="View Date wise Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090173&amp;LTP=T&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;mTFSTID=JIIT1306983'>80.0</a></td>
+		
+<td>&nbsp;</td>
+
+</tr>	
+
+	<tr>
+		<td>7</td>	
+		<td>MINOR PROJECT - II - 10B19CI691</td>
+	
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+		<td align=center><a Title="View Date wise Practical Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090177&amp;LTP=P&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevPFSTID=&amp;mPFSTID=JIIT1307359'>82.0</a></td>
+		
+</tr>	
+
+	<tr>
+		<td>8</td>	
+		<td>PROJECT MANAGEMENT - 10B11PD611</td>
+	
+	<td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090104&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1306545&amp;mTFSTID=JIIT1400008'>85.0</a></td>
+	
+	<td align=center><a Title="View Date wise Lecture Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090104&amp;LTP=L&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevLFSTID=&amp;mLFSTID=JIIT1306545'><font color=blue>87.0</font></a></td>
+
+		<td align=center><a Title="View Date wise Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090104&amp;LTP=T&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;mTFSTID=JIIT1400008'>82.0</a></td>
+		
+<td>&nbsp;</td>
+
+</tr>	
+
+	<tr>
+		<td>9</td>	
+		<td>SYSTEM AND NETWORK PROGRAMMING LAB - 10B17CI673</td>
+	
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+
+<td>&nbsp;</td>
+
+		<td align=center><a Title="View Date wise Practical Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090402&amp;LTP=P&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevPFSTID=&amp;mPFSTID=JIIT1307524'>95.0</a></td>
+		
+</tr>	
+
+</tbody>
+</table>		
+<table>
+<!--
+<tr><td><font size=2 color=blue face=verdana><B>&nbsp;Hint:</B> </font>
+ <UL>
+	<font face="verdana" size=2 color=Green><LI>
+	<B>If the '%' attendance of Lecture, Tutorial or Practical is less than 50%, It will appear in blue color.</B> 
+	<LI><B>By clicking on '%' link you can view attendance datewise.</B>
+	<LI><B>In case of any doubt, contact respective faculty.</B></font>
+ </UL>
+
+</font></td></tr> -->
+
+
+<tr><td><font size=2 color=blue face=verdana><B>&nbsp;Note:</B> </font>
+
+ 
+
+ <UL>
+	<font face="verdana" size=2 color=black>
+	<LI><B>Attendance of Monday to Wednesday  will be updated by Saturday of the current week. </B> 
+	<LI><B>Attendance of Thursday to Saturday will be updated by Wednesday of the following week. </B>
+</font>
+ </UL>
+</td></tr>
+
+
+</table>
+<script type="text/javascript">
+var st1 = new SortableTable(document.getElementById("table-1"),["Number","CaseInsensitiveString","CaseInsensitiveString","CaseInsensitiveString","CaseInsensitiveString"]);
+</script>
+
+</body>
+</html>
+
+
+// <td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090171&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1305691&amp;mTFSTID=JIIT1305702'>88.0</a></td>
+
+   // reg    <td align=center><a Title=\"View Date wise Lecture \+ Tutorial Attendance\" target=_New href='Viewdatewiselecattendance.jsp\?exam=(\d+)(\w+)&amp;ctype=r&amp;sc=(\d+)&amp;ltp=lt&amp;mregconfirmdate=((\d+)-)*(\d+)&amp;mregconfirmdateorg=((\d+)-)*(\d+)&amp;prevtfstid=&amp;prevlfstid=&amp;mlfstid=jiit(\d+)&amp;mtfstid=jiit(\d+)'>(\d+).(\d+)</a></td>"
+     
+
+  //      <td align=center><a Title="View Date wise Practical Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090174&amp;LTP=P&amp;&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevPFSTID=&amp;mPFSTID=JIIT1307458'>90.0</a></td>
+        
+  //    reg  <td align=center><a Title=\"View Date wise Practical Attendance\" target=_New href='Viewdatewiselecattendance.jsp\?exam=(\d+)(\w+)&amp;ctype=r&amp;sc=(\d+)&amp;ltp=p&amp;&amp;mregconfirmdate=((\d+)-)*(\d+)&amp;mregconfirmdateorg=((\d+)-)*(\d+)&amp;prevpfstid=&amp;mpfstid=jiit(\d+)'>(\d+).(\d+)</a></td>
+
+  //      <td align=center><a Title="View Date wise Lecture + Tutorial Attendance" target=_New href='ViewDatewiseLecAttendance.jsp?EXAM=2014EVESEM&amp;CTYPE=R&amp;SC=090172&amp;LTP=LT&amp;mRegConfirmDate=06-01-2014&amp;mRegConfirmDateOrg=06-01-2014&amp;prevTFSTID=&amp;prevLFSTID=&amp;mLFSTID=JIIT1306696&amp;mTFSTID=JIIT1307415'>86.0</a></td>
+
+        //<td>(((\w+) )+)(-)( (\w+) )*(-)* (\w+)</td>

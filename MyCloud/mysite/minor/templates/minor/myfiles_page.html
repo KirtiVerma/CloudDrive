@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+{% csrf_token %}
+
+{% for file in files %}
+    <li><a href="{{ MEDIA_URL }}{{ file }} "download>{{ file }}</a></li>
+{% endfor %}
+<p>USED : {{ size1 }} MB </p>
+<p>FREE : {{ size2 }} MB </p>
+</html>

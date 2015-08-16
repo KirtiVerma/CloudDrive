@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style.css' %}" />
+<body>
+<div id="heading">My Cloud Drive</div>
+<div id="pic">
+<img src="{% static "minor/drive.jpg" %}" alt="My image"/>
+<div id="log">
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<div id="wrong">
+Incorrect Username or Password. 
+<div>Please Login Again!!
+</div>
+</div>
+<form action="{% url 'minor:my_view' %}" method="post">
+{% csrf_token %}
+       <div>Username:
+    <input type="text" name="username" id="username" Placeholder="Username">
+	</div>
+	 <div>
+	Password:<input type="password"  name="password" id="password" Placeholder="Password">
+    </div>
+<input type="submit" value="Login" />
+</form>
+</div>
+<div id="reg">
+New to the Drive!!
+<div>
+<a href="{% url 'minor:register' %}">Register</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+

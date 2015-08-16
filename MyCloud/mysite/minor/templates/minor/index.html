@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style.css' %}" />
+<body>
+<div id="heading">My Cloud Drive</div>
+<div id="pic">
+<img src="{% static "minor/drive.jpg" %}" alt="My image"/>
+<div id="log">
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form action="{% url 'minor:my_view' %}" method="POST">
+{% csrf_token %}
+<!--{% for choice in poll.choice_set.all %}
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+{% endfor %}-->
+       Username:
+    <input type="text" name="username" id="username" Placeholder="Username">
+	<p></p>
+	Password:
+	<input type="password"  name="password" id="password" Placeholder="Password">
+    <p></p>
+<input type="submit" value="Login" />
+</form>
+</div>
+<div id="reg">
+New to the Drive!!
+<div>
+<a href="{% url 'minor:register1' %}">Register</a>
+</div>
+</div>
+</div>
+</body>
+</html>

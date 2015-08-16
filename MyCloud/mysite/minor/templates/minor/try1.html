@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'minor/style2.css' %}" type="text/css" media="Screen" />
+<body alink="black">
+<div id="back">
+<div id="logo">
+<img src="{% static "minor/d.jpg" %}" title="Share" alt="My image" />
+</div>
+<div id="heading" align="right">
+
+{% if user.is_authenticated %}
+{{ user.username }}
+{% else %}
+Authentication Error
+{% endif %}
+<div id="logout">
+<img src="{% static "minor/pic1.jpg" %}" alt="My image" height=25; width=80/>
+<a href="{% url 'minor:logout' %}">Logout</a>
+</div>
+</div>
+</div>
+<div id="mydrive">
+<hr><b>
+<p style="text-align:CENTER">
+My Drive
+</p></b>
+<hr>
+</div>
+<div id="set1">
+<div id="share">
+<a href="{% url 'minor:sharing' %}"><img src="{% static "minor/send.jpg" %}" title="Send" alt="My image" height="50" width="66" class="im" /></a>
+</div>
+<div id="upload">
+<a href="{% url 'minor:FileUpload' %}"><img src="{% static "minor/pic3.jpg" %}" title="Upload" alt="My image" height="50" width="73" class="im"  /></a>
+</div>
+                          
+<div id="list">
+<form action="{% url 'minor:afterdelete' %}" method="get">
+<div id="text1">
+<pre>            TITLE                                        LAST MODIFIED</pre>
+</div>
+{% csrf_token %}
+{% for file in files %}
+    <input type="radio" name="file" id="file" value="{{ file }}" checked><a href="{{ MEDIA_URL }}{{ file }} " style="color: #000000; text-decoration: none"download>{{ file }}</a><hr width="1000" style="height: 1.5pt; border: none; color: #E6E6E6; background-color: #E6E6E6" >
+{% endfor %}
+</div>
+<div id="del">
+<input type="image" src="{% static "minor/del.jpg" %}" title="Delete" alt="Delete" height="50" width="63" class="im" />
+</div>
+<div id="last1">
+<div id="share1">
+<a href="{% url 'minor:sharing' %}"><img src="{% static "minor/share1.jpg" %}" title="Send" alt="My image" height="55" width="110" class="im" /></a>
+</div>
+<div id="upload1">
+<a href="{% url 'minor:FileUpload' %}"><img src="{% static "minor/upload1.jpg" %}" title="Upload" alt="My image" height="50" width="120" class="im"  /></a>
+</div>
+<div id="del1">
+<input type="image" src="{% static "minor/delete1.jpg" %}" title="Delete" alt="Delete" height="50" width="120" class="im" />
+</div>
+</div>
+<div id="lastm">
+{% for tim in mtime %}
+<a>{{ tim }}</a><br><hr width="1" style="color: #E6E6E6; background-color: #E6E6E6" >
+{% endfor %}
+</div>
+</div>
+<div id="mem">
+<u>DRIVE</u>
+<br>
+USED : {{ size1 }} GB 
+<br>
+FREE : {{ size2 }} GB 
+</div>
+<div id="mem1">
+<pre>USED : {{ size1 }} GB  FREE : {{ size2 }} GB</pre> 
+</div>
+
+<div id="help">
+<a href="{% url 'minor:help' %}"><img src="{% static "minor/help.jpg" %}" title="Help" alt="My image" height="80" width="107" class="im" /></a>
+</div>
+
+</body>
+</html>

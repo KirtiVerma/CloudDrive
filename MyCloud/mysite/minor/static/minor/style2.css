@@ -1,0 +1,280 @@
+﻿body{
+
+font-family: Century Gothic, Comic Sans MS;
+
+
+}
+#back
+{
+background:#E5E4E2;
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+
+}
+#back #heading
+{  
+   font-size:23px;
+   font-family: Comic Sans MS;
+  color: #610B21;
+  margin-right: 140px;
+  position:relative;
+  top:-50px;
+  height:4px;
+ }
+
+#heading #logout 
+{ width:50px;
+  height:20px;
+  right:50px;
+  left:70px;
+  position:relative;
+  top:-28px;
+}
+
+#heading #logout a
+{font-size: 20px;
+ font-family:Comic Sans MS; 
+ color: teal;
+ position:relative;
+ text-decoration:none;
+ top: -37px;
+ left:10px;
+}
+
+#logo
+{     top:2px;
+	 left:20px;
+	 position:relative;
+	 height:70px;
+	 width:105px;
+	 
+}
+#set1 #upload
+{
+	 left: 500px;
+	 position:relative;
+	 top: -50px;
+	   width:600px;
+}
+
+#set1 #list
+{
+	left: 300px;
+    position:relative;
+    top:-30px;
+    text-align:left;
+    width:1000px;
+}
+
+
+
+#set1 #list #file
+{ 
+	width: 1em;
+	height: 1em;
+}  
+#set1 #list a
+{
+margin-left:8px;
+}
+
+#set1 #del
+{
+	left:700px;
+	top:150px;
+	position:fixed;
+	  width:300px;
+}
+
+#set1 #share
+{
+	 left: 320px;
+	 position:relative;
+	 top:5px;
+	   width:1000px;
+}
+
+
+#set1 #lastm
+{
+	left: 1000px;
+    top: 290px;
+    position: fixed;
+    width:300px;
+  
+
+}
+
+#set1 #list #text1
+{
+	font-family: Comic Sans MS;
+font-size:20px;
+font-weight:bold;
+
+}
+
+#mem
+{    font-family: Century Gothic, Comic Sans MS;
+font-size:15px;
+font-weight:bold;
+position:fixed;
+	left:20px;
+	top:250px;
+	border:thin;
+ border-color:silver;
+ border-width:thin;
+ border-bottom-style:dashed;
+ border-top-style:dashed;
+border-right-style:dashed;
+border-left-style:dashed;
+background-color:#FAFAFA;
+width:110px;
+border-spacing:2px;
+}
+
+#mem1
+{ top:-1000px;
+position:relative;
+}
+
+#help
+{
+	left:20px;
+	top:500px;
+	position:fixed;
+	  width:300px;
+
+}
+
+#last1
+{
+top:-1000px;
+position:relative;
+}
+
+@media all and (max-width: 400px) {
+#back
+{
+display:none;
+}
+#back #heading
+{  width: 80%;
+    z-index:1;
+   font-size:15px;
+   font-family:Comic Sans MS;
+  color: #610B21;
+  margin-right: 140px;
+  position:fixed;
+  top:50px;
+  height:4px;
+  left:290px;
+
+}
+#back #logout
+{
+	 display:none;
+}
+
+#logo
+{   display:none;
+	 
+}
+#set1 #upload
+{
+	display:none;
+}
+
+
+#set1 #list
+{    
+	left: 5px;
+	width:100%;
+    position:relative;
+    top:75px;
+    text-align:left;
+    font-size:10px;
+    font-weight:bold;
+    
+}
+#set1 #list #file
+{ 
+	width: .5em;
+	height: .5em;
+}  
+#set1 #list a
+{
+margin-left:8px;
+}
+
+#set1 #list hr {
+  width: 100%;
+}
+
+#set1 #del
+{
+	display:none;
+}
+
+#set1 #share
+{
+	display:none;
+}
+
+#set1 #lastm
+{
+display:none;
+}
+
+#set1 #list #text1
+{
+	display:none;
+}
+
+#mem
+{    display:none;
+}
+
+#mem1
+{ font-size:10px;
+font-family: Century Gothic, Comic Sans MS;
+left:10px;
+top:40px;
+position:fixed;
+}
+
+#help
+{
+display:none;
+}
+
+
+#mydrive
+{ display:none;
+}
+
+#last1
+{
+top:300px;
+position:fixed;
+}
+
+#last1 #share1
+{
+left:-10px;
+position:relative;
+top:109px;
+}
+#last1 #del1
+{
+left:200px;
+position:relative;
+top:-4px;
+}
+#last1 #upload1
+{
+left:80px;
+position:relative;
+top:50px;
+}
+}

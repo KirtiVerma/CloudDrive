@@ -1,0 +1,93 @@
+﻿body{
+
+font-family: Century Gothic, Comic Sans MS;
+background: white url("clouds.jpg") no-repeat;
+margin: 0 auto;
+text-align: center;
+}
+
+#send
+{ 
+top: 80px;
+ font-size:large;
+ position:relative;
+ font-family:Comic Sans MS; 
+ color:blue;
+ richness:inherit;
+ left:400px;
+ background-color:#EFFBFB;
+ height:450px;
+ width:600px;
+ border:medium;
+ border-color:black;
+ border-width:thick;
+ border-bottom-style:double;
+ border-top-style:double;
+border-right-style:double;
+border-left-style:double;
+text-align:left;
+margin-left:20px;
+padding:20px;
+ 
+}
+
+#back
+{ 
+ top: -410px;
+ position:relative;
+ font-family:Comic Sans MS; 
+ left: 320px;
+}
+
+#back a {
+ font-size:large;
+ font-weight:bold;
+ text-decoration: underline;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+body{
+
+font-family: Century Gothic, Comic Sans MS;
+margin: 0 auto;
+text-align: center;
+background:white;
+}
+
+
+#send
+{ font-size:10px;
+ position:relative;
+ font-family:Comic Sans MS; 
+ color:blue;
+ richness:inherit;
+ left:10px;
+ background-color:#EFFBF8;
+ height:300px;
+ width:220px;
+ border:medium;
+ border-color:black;
+ border-width:thick;
+ border-bottom-style:double;
+ border-top-style:double;
+border-right-style:double;
+border-left-style:double;
+text-align:left;
+margin-left:5px;
+padding:20px;
+top:100px;
+}
+
+
+#back
+{ 
+display:none;
+}
+
+
+
+
+
+}
+

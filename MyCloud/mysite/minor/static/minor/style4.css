@@ -1,0 +1,53 @@
+﻿body{
+
+font-family: Century Gothic, Comic Sans MS;
+background: white url("clouds.jpg") no-repeat;
+margin: 0 auto;
+text-align: center;
+}
+
+#heading
+{  top: 30px;
+   font-size:50px;
+  color: #610B21;
+  text-align: center;
+  font-family: Algerian; 
+}
+#pic
+{ 
+}
+
+#pic form
+{ top: -380px;
+ font-size:large;
+
+ font-family:Comic Sans MS; 
+ color:blue;
+ left:540px;
+}
+
+#pic #s
+{ top: -220px;
+ font-size:large;
+ position:relative;
+ font-family:Comic Sans MS; 
+ color:blue;
+ left:0px;
+}
+
+#pic #back
+{ 
+ top: -440px;
+ position:relative;
+ font-family:Comic Sans MS; 
+ left: 230px;
+}
+
+#pic #back a {
+ font-size:large;
+ font-weight:bold;
+ text-decoration: underline;
+}
+
+
+

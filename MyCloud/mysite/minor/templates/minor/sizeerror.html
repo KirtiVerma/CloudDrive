@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style3.css' %}" />
+<body>
+<div id="heading">
+Choose File to Upload
+</div>
+<div id="pic">
+<img src="{% static "minor/drive.jpg" %}" alt="My image"/>
+<div id="options">
+
+<form enctype="multipart/form-data" action="{% url 'minor:FileUpload' %}" method="POST">
+{% csrf_token %}
+<h3 align="left">size is too large</h3>
+ <table>
+       {{form.as_table}}
+ </table>
+ </div>
+ <p></p>
+<div id="s"><input type="submit" value="Submit" id="Save">
+</form>
+</div>
+<div id="back">
+<a href="{% url 'minor:try1' %}">My DRIVE</a>
+</div>
+
+</div>
+</body>
+</html>

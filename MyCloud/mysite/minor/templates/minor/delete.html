@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+<form action="{% url 'minor:afterdelete' %}" method="post">
+{% csrf_token %}
+{% for file in files %}
+    <input type="radio" name="file" id="file" value="{{ file }}" checked>{{ file }}</a><br>
+{% endfor %}
+<input type="submit" value="Delete" />
+</html>

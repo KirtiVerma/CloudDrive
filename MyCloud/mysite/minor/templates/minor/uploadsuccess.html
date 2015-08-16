@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style3.css' %}" /><script type="text/javascript">
+	setTimeout(function() {
+		alert("Upload Successful");
+		window.location.href="/minor/try1/";
+		}, 10);
+	</script>
+<body>
+<!--{% csrf_token %}
+<div id="heading">
+<br>
+<br>
+</div>
+<div id="pic">
+<img src="{% static "minor/drive.jpg" %}" alt="My image"/>
+<div id="options">
+<h3 align="left">Upload Successful!</h3>
+ </div>
+<div id="back">
+<a href="{% url 'minor:try1' %}">My DRIVE</a>
+</div>
+
+</div>-->
+</body>
+</html>

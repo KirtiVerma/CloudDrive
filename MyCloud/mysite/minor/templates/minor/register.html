@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'minor/style1.css' %}" />
+<body>
+<div id="heading">My Cloud Drive</div>
+<div id="pic">
+<img src="{% static "minor/drive.jpg" %}" alt="My image"/>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<div id="enter">
+<form action="{% url 'minor:register' %}" method="post">
+{% csrf_token %}
+<!--{% for choice in poll.choice_set.all %}
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br />
+{% endfor %}-->
+
+        Username:
+    <input type="text" name="username" id="username" Placeholder="Username">
+	<br>
+	Password:
+	<input type="password"  name="password" id="password" Placeholder="Password">
+    <br>
+        First Name:
+    <input type="text" name="firstname" id="firstname" Placeholder="First Name">
+	<br>Last Name:
+	<input type="text"  name="lastname" id="lastname" Placeholder="Last Name">
+    <br>
+        Email:
+    <input type="text" name="email" id="email" Placeholder="Email">
+	
+<br> 
+ 
+<input type="submit" value="Register" />
+</form>
+</div>
+<div id="back">
+<a href="{% url 'minor:index' %}">Login</a>
+</div>
+</div>
+</body>
+</html>
